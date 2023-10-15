@@ -1,0 +1,31 @@
+{
+  "type": "APL",
+  "version": "2023.2",
+  "import":
+  [
+    {
+      "name": "alexa-icon",
+      "version": "1.0.0"
+    }
+  ],
+  "mainTemplate":
+  {
+    "item":
+    {
+      "type": "Container",
+      "direction": "row",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "items":
+      [
+        {
+          "type": "AlexaIcon",
+          "iconName": "ic_shopping_cart_full",
+          "iconColor": "white",
+          "width": "50%",
+          "iconSize": 280
+        }
+      ]
+    }
+  }
+}
